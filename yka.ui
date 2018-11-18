@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>910</width>
+    <height>593</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>YKA CHAOS MANAGAER V1.0</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>861</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Player1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Player2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Player3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Player4</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Player5</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Player6</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>PLAYER</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>승리</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>영웅타입</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>영웅번호</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>K</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>D</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>A</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>20</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>결과 전송하기</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>오늘의 경기 내용</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>310</y>
+      <width>56</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>결과보기</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>300</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>2018-09</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2018-10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2018-11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2018-12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2019-01</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>300</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>기간별 결과</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>300</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>전체 결과</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>341</y>
+      <width>861</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Player1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Player2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Player3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Player4</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Player5</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Player6</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Rank</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Player</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Game_count</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Win_rate</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Win_score</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>K</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>D</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>A</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
